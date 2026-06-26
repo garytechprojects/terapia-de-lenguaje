@@ -2,8 +2,8 @@
   "name": "HablaKids",
   "short_name": "HablaKids",
   "description": "App interactiva para ayudar a niños a aprender a hablar, pronunciar y vocalizar",
-  "start_url": "/hablakids/index.html",
-  "scope": "/hablakids/",
+  "start_url": "/terapia-de-lenguaje/",
+  "scope": "/terapia-de-lenguaje/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FFFDF7",
@@ -30,7 +30,7 @@
       "name": "Nivel 0 - Sonidos",
       "short_name": "Sonidos",
       "description": "Empieza con los sonidos básicos",
-      "url": "/hablakids/index.html#nivel0"
+      "url": "/terapia-de-lenguaje/#nivel0"
     }
   ]
 }
