@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap');
+
+:root {
+  --amarillo: #FFD93D;
+  --amarillo-claro: #FFF3B0;
+  --naranja: #FF6B35;
+  --naranja-oscuro: #E55A2B;
+  --azul: #4ECDC4;
+  --azul-oscuro: #3DB8B0;
+  --azul-claro: #B8F3EF;
+  --verde: #6BCB77;
+  --verde-oscuro: #5AB866;
+  --verde-claro: #C8F7C5;
+  --rosa: #FF8FAB;
+  --rosa-oscuro: #E67A95;
+  --rosa-claro: #FFD6E0;
+  --morado: #C084FC;
+  --morado-oscuro: #A96AE8;
+  --morado-claro: #E8D5FF;
+  --blanco: #FFFDF7;
+  --crema: #FFF8E7;
+  --gris-claro: #F0EDE8;
+  --texto: #2D3436;
+  --texto-claro: #636E72;
+
+  --font: 'Nunito', 'Segoe UI', sans-serif;
+  --font-display: 'Fredoka One', 'Nunito', cursive;
+
+  --radius: 20px;
+  --radius-sm: 12px;
+  --radius-lg: 28px;
+  --radius-xl: 36px;
+  --btn-min-size: 56px;
+
+  --sombra: 0 4px 15px rgba(0,0,0,0.1);
+  --sombra-media: 0 6px 20px rgba(0,0,0,0.12);
+  --sombra-fuerte: 0 8px 30px rgba(0,0,0,0.18);
+  --sombra-boton: 0 4px 0 var(--naranja-oscuro);
+  --sombra-boton-azul: 0 4px 0 var(--azul-oscuro);
+  --sombra-boton-verde: 0 4px 0 var(--verde-oscuro);
+
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --bounce: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  --bounce-suave: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

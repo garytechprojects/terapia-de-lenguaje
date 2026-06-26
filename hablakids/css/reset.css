@@ -1,0 +1,9 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; -webkit-tap-highlight-color: transparent; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+img, svg { display: block; max-width: 100%; }
+button { font: inherit; cursor: pointer; border: none; background: none; -webkit-tap-highlight-color: transparent; }
+input { font: inherit; border: none; outline: none; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color: inherit; }
+:focus-visible { outline: 3px solid var(--naranja); outline-offset: 3px; border-radius: 8px; }

@@ -1,0 +1,23 @@
+{
+  "simples": [
+    {"frase":"yo quiero agua","dificultad":1,"silabas":["yo","quie","ro","a","gua"]},
+    {"frase":"dame la mano","dificultad":1,"silabas":["da","me","la","ma","no"]},
+    {"frase":"mi mama me ama","dificultad":1,"silabas":["mi","ma","ma","me","a","ma"]},
+    {"frase":"el sol brilla","dificultad":1,"silabas":["el","sol","bri","lla"]},
+    {"frase":"la luna sale","dificultad":1,"silabas":["la","lu","na","sa","le"]}
+  ],
+  "medias": [
+    {"frase":"el perro corre rapido","dificultad":2,"silabas":["el","pe","rro","co","rre","ra","pi","do"]},
+    {"frase":"quiero jugar contigo","dificultad":2,"silabas":["quie","ro","ju","gar","con","ti","go"]},
+    {"frase":"vamos a comer juntos","dificultad":2,"silabas":["va","mos","a","co","mer","jun","tos"]},
+    {"frase":"me gusta el helado","dificultad":2,"silabas":["me","gus","ta","el","he","la","do"]},
+    {"frase":"tengo mucho sueno","dificultad":2,"silabas":["ten","go","mu","cho","sue","ño"]}
+  ],
+  "avanzadas": [
+    {"frase":"ella es mi mejor amiga","dificultad":3,"silabas":["e","lla","es","mi","me","jor","a","mi","ga"]},
+    {"frase":"el gato es muy bonito","dificultad":3,"silabas":["el","ga","to","es","muy","bo","ni","to"]},
+    {"frase":"la flor roja es hermosa","dificultad":3,"silabas":["la","flor","ro","ja","es","her","mo","sa"]},
+    {"frase":"mi casa grande es azul","dificultad":3,"silabas":["mi","ca","sa","gran","de","es","a","zul"]},
+    {"frase":"hoy hace mucho calor","dificultad":3,"silabas":["hoy","ha","ce","mu","cho","ca","lor"]}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "animales": [
+    {"palabra":"perro","silabas":["pe","rro"],"fonemas":"perro","categoria":"animales","dificultad":1},
+    {"palabra":"gato","silabas":["ga","to"],"fonemas":"gato","categoria":"animales","dificultad":1},
+    {"palabra":"pato","silabas":["pa","to"],"fonemas":"pato","categoria":"animales","dificultad":1},
+    {"palabra":"vaca","silabas":["va","ca"],"fonemas":"baka","categoria":"animales","dificultad":1},
+    {"palabra":"elefante","silabas":["e","le","fan","te"],"fonemas":"elefante","categoria":"animales","dificultad":2},
+    {"palabra":"mariposa","silabas":["ma","ri","po","sa"],"fonemas":"mariposa","categoria":"animales","dificultad":2},
+    {"palabra":"conejo","silabas":["co","ne","jo"],"fonemas":"konexo","categoria":"animales","dificultad":2},
+    {"palabra":"tortuga","silabas":["tor","tu","ga"],"fonemas":"tortuga","categoria":"animales","dificultad":2},
+    {"palabra":"ballena","silabas":["ba","lle","na"],"fonemas":"baʎena","categoria":"animales","dificultad":2},
+    {"palabra":"delfin","silabas":["del","fin"],"fonemas":"delfin","categoria":"animales","dificultad":2}
+  ],
+  "comida": [
+    {"palabra":"manzana","silabas":["man","za","na"],"fonemas":"manzana","categoria":"comida","dificultad":1},
+    {"palabra":"pan","silabas":["pan"],"fonemas":"pan","categoria":"comida","dificultad":0},
+    {"palabra":"leche","silabas":["le","che"],"fonemas":"letʃe","categoria":"comida","dificultad":1},
+    {"palabra":"agua","silabas":["a","gua"],"fonemas":"agwa","categoria":"comida","dificultad":1},
+    {"palabra":"queso","silabas":["que","so"],"fonemas":"keso","categoria":"comida","dificultad":1},
+    {"palabra":"helado","silabas":["he","la","do"],"fonemas":"elado","categoria":"comida","dificultad":1},
+    {"palabra":"galleta","silabas":["ga","lle","ta"],"fonemas":"gaʎeta","categoria":"comida","dificultad":2},
+    {"palabra":"chocolate","silabas":["cho","co","la","te"],"fonemas":"tʃokolate","categoria":"comida","dificultad":2}
+  ],
+  "colores": [
+    {"palabra":"rojo","silabas":["ro","jo"],"fonemas":"roхо","categoria":"colores","dificultad":1},
+    {"palabra":"azul","silabas":["a","zul"],"fonemas":"azul","categoria":"colores","dificultad":1},
+    {"palabra":"verde","silabas":["ver","de"],"fonemas":"berde","categoria":"colores","dificultad":1},
+    {"palabra":"amarillo","silabas":["a","ma","ri","llo"],"fonemas":"amariʎo","categoria":"colores","dificultad":2},
+    {"palabra":"blanco","silabas":["blan","co"],"fonemas":"blanko","categoria":"colores","dificultad":2},
+    {"palabra":"negro","silabas":["ne","gro"],"fonemas":"negro","categoria":"colores","dificultad":2}
+  ],
+  "casa": [
+    {"palabra":"cama","silabas":["ca","ma"],"fonemas":"kama","categoria":"casa","dificultad":0},
+    {"palabra":"mesa","silabas":["me","sa"],"fonemas":"mesa","categoria":"casa","dificultad":0},
+    {"palabra":"silla","silabas":["si","lla"],"fonemas":"siʎa","categoria":"casa","dificultad":1},
+    {"palabra":"ventana","silabas":["ven","ta","na"],"fonemas":"bentana","categoria":"casa","dificultad":2},
+    {"palabra":"puerta","silabas":["puer","ta"],"fonemas":"puerta","categoria":"casa","dificultad":1},
+    {"palabra":"cocina","silabas":["co","ci","na"],"fonemas":"koθina","categoria":"casa","dificultad":2}
+  ],
+  "familia": [
+    {"palabra":"mama","silabas":["ma","ma"],"fonemas":"mama","categoria":"familia","dificultad":0},
+    {"palabra":"papa","silabas":["pa","pa"],"fonemas":"papa","categoria":"familia","dificultad":0},
+    {"palabra":"bebe","silabas":["be","be"],"fonemas":"bebe","categoria":"familia","dificultad":0},
+    {"palabra":"hermano","silabas":["her","ma","no"],"fonemas":"ermano","categoria":"familia","dificultad":2},
+    {"palabra":"abuelo","silabas":["a","bue","lo"],"fonemas":"abuelo","categoria":"familia","dificultad":2},
+    {"palabra":"abuela","silabas":["a","bue","la"],"fonemas":"abuela","categoria":"familia","dificultad":2}
+  ]
+}

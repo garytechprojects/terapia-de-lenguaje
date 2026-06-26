@@ -1,0 +1,41 @@
+[
+  {
+    "id":1,
+    "titulo":"El Gato Viajero",
+    "nivel":4,
+    "escenas":[
+      {"img":"🐱","texto":"Habia una vez un gato","dice":"un gato","pista":"el animal que dice miau"},
+      {"img":"🌙","texto":"que salio de noche a pasear","dice":"de noche","pista":"cuando hay luna"},
+      {"img":"⭐","texto":"y vio una estrella brillar","dice":"una estrella","pista":"brilla en el cielo"},
+      {"img":"🌳","texto":"subio a un arbol muy alto","dice":"subio al arbol","pista":"trepando hacia arriba"},
+      {"img":"🦉","texto":"conocio a un buho amigo","dice":"un buho amigo","pista":"el ave que dice uju"},
+      {"img":"🏠","texto":"y volvio feliz a su casa","dice":"feliz a casa","pista":"donde vive"}
+    ]
+  },
+  {
+    "id":2,
+    "titulo":"La Nina y la Mariposa",
+    "nivel":5,
+    "escenas":[
+      {"img":"👧","texto":"Una nina salio al jardin","dice":"al jardin","pista":"donde crecen las flores"},
+      {"img":"🦋","texto":"vio una mariposa de colores","dice":"mariposa de colores","pista":"vuela y tiene alas"},
+      {"img":"🌸","texto":"la mariposa se poso en una flor","dice":"en una flor","pista":"huele rico"},
+      {"img":"☀️","texto":"el sol calentaba suave","dice":"el sol calentaba","pista":"da luz y calor"},
+      {"img":"😊","texto":"la nina sonrio feliz","dice":"sonrio feliz","pista":"expresion de alegria"},
+      {"img":"🏃","texto":"y corrio a contarselo a mama","dice":"a contarselo a mama","pista":"a decirle a su mama"}
+    ]
+  },
+  {
+    "id":3,
+    "titulo":"El Perro Jugueton",
+    "nivel":6,
+    "escenas":[
+      {"img":"🐕","texto":"Habia un perro muy jugueton","dice":"muy jugueton","pista":"le gusta jugar"},
+      {"img":"🎾","texto":"tenia una pelota verde","dice":"pelota verde","pista":"redonda y de ese color"},
+      {"img":"🏃","texto":"corria detras de su pelota","dice":"detras de su pelota","pista":"persiguiendo su juguete"},
+      {"img":"🐱","texto":"el gato lo miraba saltar","dice":"lo miraba saltar","pista":"observaba como brincaba"},
+      {"img":"🌳","texto":"la pelota choco contra un arbol","dice":"contra un arbol","pista":"golpeo algo alto"},
+      {"img":"😴","texto":"el perro se canso y durmio","dice":"se canso y durmio","pista":"cerro los ojos"}
+    ]
+  }
+]

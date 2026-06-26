@@ -1,0 +1,256 @@
+.game-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px;
+  gap: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.game-imagen {
+  font-size: 6rem;
+  animation: flotarSuave 5s ease-in-out infinite;
+  line-height: 1;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+}
+
+.game-texto-modelo {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--texto);
+  min-height: 3rem;
+  font-family: var(--font-display);
+  letter-spacing: 2px;
+}
+
+.game-texto-reconocido {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--texto-claro);
+  min-height: 2.5rem;
+  padding: 10px 20px;
+  background: white;
+  border-radius: var(--radius);
+  min-width: 120px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 2px solid var(--gris-claro);
+  transition: all var(--transition);
+}
+
+
+
+.game-pista {
+  font-size: 0.95rem;
+  color: var(--texto-claro);
+  font-weight: 600;
+  padding: 12px 18px;
+  background: linear-gradient(135deg, var(--amarillo-claro), var(--amarillo));
+  border-radius: var(--radius);
+  max-width: 280px;
+  box-shadow: 0 2px 8px rgba(255, 217, 61, 0.2);
+  border: 2px solid var(--amarillo);
+}
+
+.btn-grabar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--naranja), var(--naranja-oscuro));
+  color: white;
+  font-size: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 0 var(--naranja-oscuro), var(--sombra-fuerte);
+  transition: all var(--bounce);
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-grabar:active {
+  transform: scale(0.9) translateY(4px);
+  box-shadow: 0 2px 0 var(--naranja-oscuro), var(--sombra);
+}
+
+.btn-grabar.grabando {
+  background: linear-gradient(135deg, var(--rosa), var(--rosa-oscuro));
+  box-shadow: 0 6px 0 var(--rosa-oscuro), 0 0 0 0 rgba(255, 143, 171, 0.5);
+  animation: grabarPulso 1.2s ease-in-out infinite;
+}
+
+@keyframes grabarPulso {
+  0%, 100% { box-shadow: 0 6px 0 var(--rosa-oscuro), 0 0 0 0 rgba(255, 143, 171, 0.5); }
+  50% { box-shadow: 0 6px 0 var(--rosa-oscuro), 0 0 0 25px rgba(255, 143, 171, 0); }
+}
+
+.feedback-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feedback-score {
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 6px 16px;
+  border-radius: 16px;
+  animation: bounceIn 0.5s var(--bounce);
+}
+
+.feedback-score.bien {
+  background: linear-gradient(135deg, var(--verde), var(--verde-oscuro));
+  color: white;
+  box-shadow: 0 2px 8px rgba(107, 203, 119, 0.3);
+}
+
+.feedback-score.regular {
+  background: linear-gradient(135deg, var(--amarillo), #F0C000);
+  color: var(--texto);
+  box-shadow: 0 2px 8px rgba(255, 217, 61, 0.3);
+}
+
+.feedback-score.mal {
+  background: linear-gradient(135deg, var(--rosa), var(--rosa-oscuro));
+  color: white;
+  box-shadow: 0 2px 8px rgba(255, 143, 171, 0.3);
+}
+
+.feedback-texto {
+  font-size: 1.15rem;
+  font-weight: 800;
+  text-align: center;
+  min-height: 2rem;
+  animation: bounceIn 0.5s var(--bounce);
+  padding: 4px 12px;
+}
+
+.feedback-texto.exito {
+  color: var(--verde);
+  background: var(--verde-claro);
+  border-radius: var(--radius);
+  padding: 8px 20px;
+}
+
+.feedback-texto.fallo {
+  color: var(--naranja);
+  background: var(--amarillo-claro);
+  border-radius: var(--radius);
+  padding: 8px 20px;
+}
+
+.game-progreso-ejercicios {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 0;
+  flex-wrap: wrap;
+}
+
+.punto-ejercicio {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--gris);
+  transition: all var(--transition);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.punto-ejercicio.completado {
+  background: linear-gradient(135deg, var(--verde), #4CAF50);
+  transform: scale(1.1);
+  box-shadow: 0 2px 6px rgba(107, 203, 119, 0.3);
+}
+
+.punto-ejercicio.fallado {
+  background: linear-gradient(135deg, var(--naranja), var(--naranja-oscuro));
+  transform: scale(1.1);
+}
+
+.punto-ejercicio.actual {
+  background: linear-gradient(135deg, var(--azul), var(--azul-oscuro));
+  transform: scale(1.3);
+  animation: pulso 1.5s ease-in-out infinite;
+  box-shadow: 0 0 0 4px rgba(78, 205, 196, 0.2);
+}
+
+.game-selector-juegos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+}
+
+.juego-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 20px 12px;
+  text-align: center;
+  box-shadow: var(--sombra-media);
+  cursor: pointer;
+  transition: all var(--bounce);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border: 3px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.juego-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--naranja), var(--morado), var(--azul));
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.juego-card:active {
+  transform: scale(0.93);
+  border-color: var(--azul);
+}
+
+.juego-card:hover::before {
+  opacity: 1;
+}
+
+.juego-icono {
+  font-size: 3rem;
+  animation: flotarSuave 5s ease-in-out infinite;
+}
+
+.juego-card:nth-child(2) .juego-icono { animation-delay: 0.3s; }
+.juego-card:nth-child(3) .juego-icono { animation-delay: 0.6s; }
+.juego-card:nth-child(4) .juego-icono { animation-delay: 0.9s; }
+
+.juego-nombre {
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--texto);
+}
+
+.juego-desc {
+  font-size: 0.78rem;
+  color: var(--texto-claro);
+  font-weight: 600;
+}
+
+.game-bg-decor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.06;
+  font-size: 8rem;
+}
